@@ -1,0 +1,8 @@
+<div id="recent_episodes">
+  <h3>Recent ASCIIcasts Episodes</h3>
+  <ul>
+  <% @feeds.each do |feed| %>
+    <li><%= link_to h(feed.name), feed.url %></li>
+  <% end %>
+  </ul>
+</div>

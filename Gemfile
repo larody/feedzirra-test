@@ -7,6 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'mysql2'
 
+gem 'feedzirra', :git => "git://github.com/lumpidu/feedzirra.git", :ref => "8ec6af7"
 
 # Gems used only for assets and not required
 # in production environments by default.
